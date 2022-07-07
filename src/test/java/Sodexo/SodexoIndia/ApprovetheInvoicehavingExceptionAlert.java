@@ -59,10 +59,11 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 				okonpopup.click();
 				Thread.sleep(3000);
 			
-					
+				System.out.println("going for logout");
 					Thread.sleep(3000);
 			      driver.findElement(By.xpath("//a[contains(@title,'Log out')]")).click();
 			      System.out.println("Pass");
+			      
 			
 				}
 				
