@@ -29,6 +29,12 @@ public class mergerconflict {
 		System.out.println("D");
 		
 	}
+	@Test
+	public void e()
+	{
+		System.out.println("E");
+		
+	}
 
 
 }
