@@ -17,7 +17,7 @@ public class mergerconflict {
 	}
 
 	@Test
-	public void B()
+	public void C()
 	{
 		System.out.println("B");
 		
