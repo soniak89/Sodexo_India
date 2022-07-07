@@ -63,7 +63,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 					Thread.sleep(3000);
 			      driver.findElement(By.xpath("//a[contains(@title,'Log out')]")).click();
 			      System.out.println("Pass");
-			      
+			      System.out.println("Yes logout");
 			
 				}
 				
