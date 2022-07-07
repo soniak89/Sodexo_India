@@ -10,7 +10,7 @@
 
   <name>SodexoIndia</name>
   <!-- FIXME change it to the project's website -->
-  <url>https://pita.checkaninvoice.in</url>
+  <url>https://app.checkaninvoice.in</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
