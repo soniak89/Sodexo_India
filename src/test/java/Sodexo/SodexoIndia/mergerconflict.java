@@ -16,7 +16,13 @@ public class mergerconflict {
 		
 	}
 
-	
+	@Test
+	public void B()
+	{
+		System.out.println("B");
+		
+	}
+
 
 
 }
