@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sodexo Features">
+
+  <test thread-count="5" name="India">
+  	<parameter name="URL" value="https://app.checkaninvoice.in/"/>
+  <parameter name="username" value="sodexo.india@checkaninvoice.com"/>
+    <parameter name="password" value="Asdf@1234"/>
+    <classes>
+    
+         <class name="Sodexo.SodexoIndia.EditwhenInvoicehaveRejectedStatus" />
+  
+      
+   <class name="Sodexo.SodexoIndia.VerifytheExceptionChecks"/>  
+        <class name="Sodexo.SodexoIndia.EditWhenInvoicehaveExceptionAlert"/> 
+      <class name="Sodexo.SodexoIndia.UploadSodexoDocument" /> 
+    <class name="Sodexo.SodexoIndia.EditwhenInvoicehaveRejectedStatus"/>  
+ <class name="Sodexo.SodexoIndia.FiledownloadfromAllStatus"/>
+   <class name="Sodexo.SodexoIndia.RejecttheInvoicewithReason"/>
+   <class name="Sodexo.SodexoIndia.CSVDownloadfromCardViewResult"/>
+      <class name="Sodexo.SodexoIndia.CSVDownloadfromListView"/>
+        <class name="Sodexo.SodexoIndia.CSVDownloadfromAccountingSystem" />
+         <class name="Sodexo.SodexoIndia.ExceptionNRejectReasoninViewResults"/>
+       
+       <class name="Sodexo.SodexoIndia.ApprovetheInvoicehavingExceptionAlert"/>
+      <class name="Sodexo.SodexoIndia.EditWhenInvoicenotSynced"/>
+     <class name="Sodexo.SodexoIndia.VerifyconnectiontoTradeShiftandGetresponseSuccessfullyExported"/>
+          
+         
+ 	
+      
+       
+      
+    </classes>
+  </test> <!-- India -->
+</suite> <!-- Sodexo Features -->

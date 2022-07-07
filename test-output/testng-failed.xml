@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sodexo Features]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="India(failed)">
+    <parameter name="password" value="Asdf@1234"/>
+    <parameter name="URL" value="https://app.checkaninvoice.in/"/>
+    <parameter name="username" value="sodexo.india@checkaninvoice.com"/>
+    <classes>
+      <class name="Sodexo.SodexoIndia.EditWhenInvoicehaveExceptionAlert">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="EditfunctionalityonExceptionAlertcase" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Sodexo.SodexoIndia.EditWhenInvoicehaveExceptionAlert -->
+    </classes>
+  </test> <!-- India(failed) -->
+</suite> <!-- Failed suite [Sodexo Features] -->
